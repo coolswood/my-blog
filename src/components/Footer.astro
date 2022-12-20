@@ -4,7 +4,7 @@ import Container from "./Container.astro";
 ---
 
 <footer>
-  <Container>
+	<!-- <Container>
     <div class="footer-links__grid">
       <ul>
         <li><strong>Company</strong></li>
@@ -15,57 +15,57 @@ import Container from "./Container.astro";
     <div class="footer-bottom__container">
       <p>&copy; {new Date().getFullYear()} {settings.name}</p>
     </div>
-  </Container>
+  </Container> -->
 </footer>
 
 <style>
-  footer {
-    position: relative;
-    min-height: 100px;
-    background-color: var(--theme-footer-background);
-    color: var(--theme-on-footer-background);
-  }
-  .footer-links__grid {
-    padding: 10vh 0;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
-  }
-  .footer-links__grid ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  .footer-links__grid ul li:first-of-type {
-    margin-bottom: 0.5rem;
-  }
-  .footer-links__grid ul li strong {
-    font-weight: 900;
-  }
-  .footer-bottom__container {
-    position: relative;
-    bottom: 0;
-    padding: 0 0 1rem 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: var(--step--2);
-  }
+	footer {
+		position: relative;
+		min-height: 70px;
+		background-color: rgba(34, 34, 34);
+		color: var(--theme-on-footer-background);
+	}
+	.footer-links__grid {
+		padding: 10vh 0;
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		gap: 1rem;
+	}
+	.footer-links__grid ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+	.footer-links__grid ul li:first-of-type {
+		margin-bottom: 0.5rem;
+	}
+	.footer-links__grid ul li strong {
+		font-weight: 900;
+	}
+	.footer-bottom__container {
+		position: relative;
+		bottom: 0;
+		padding: 0 0 1rem 0;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		font-size: var(--step--2);
+	}
 
-  @media(max-width: 768px) {
-    .footer-links__grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-  @media(max-width: 480px) {
-    .footer-links__grid {
-      grid-template-columns: 1fr;
-      gap: 2rem;
-    }
-    .footer-bottom__container {
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 1rem;
-    }
-  }
+	@media (max-width: 768px) {
+		.footer-links__grid {
+			grid-template-columns: repeat(2, 1fr);
+		}
+	}
+	@media (max-width: 480px) {
+		.footer-links__grid {
+			grid-template-columns: 1fr;
+			gap: 2rem;
+		}
+		.footer-bottom__container {
+			flex-direction: column;
+			align-items: flex-start;
+			gap: 1rem;
+		}
+	}
 </style>

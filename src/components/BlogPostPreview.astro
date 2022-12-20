@@ -23,7 +23,7 @@ import { formatDate } from "../utils/helpers";
 				)
 			}
 			<h2>{post.frontmatter.title}</h2>
-			<p class="post-preview__date">
+			<p class="text-[#666] text-base">
 				{formatDate(post.frontmatter.publishedAt)}
 			</p>
 		</div>
@@ -60,10 +60,6 @@ import { formatDate } from "../utils/helpers";
 		object-fit: cover;
 		border-radius: 1rem;
 		transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
-	}
-	.post-preview__date {
-		font-size: var(--step--1);
-		color: #666;
 	}
 	@media (max-width: 768px) {
 		.post-preview__article {

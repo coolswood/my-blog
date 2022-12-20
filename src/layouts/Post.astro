@@ -28,7 +28,7 @@ const seo = {
 						</p>
 					)
 				}
-				<div class="animate-[fade_0.6s]">
+				<div class="animate-[fade_0.5s]">
 					<h1
 						class="text-center my-4 mx-auto max-w-[700px] animate-[fadeInUp_0.4s]"
 					>
@@ -42,7 +42,7 @@ const seo = {
 					<!-- Hopefully we'll be able to use Astro's image integration for this soon -->
 					{
 						frontmatter.image && (
-							<picture>
+							<picture class="animate-[fadeInUp_0.4s]">
 								<source
 									srcset={`${frontmatter.image}.webp`}
 									type="image/webp"
