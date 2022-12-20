@@ -1,6 +1,6 @@
 export const settings = {
   site: 'https://simple-blog.littlesticks.dev',
-  name: 'Simple Blog',
+  name: 'Мои мысли',
   title: 'Site title',
   description: 'Site description',
   showLittleSticksPlug: true,

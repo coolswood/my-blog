@@ -45,7 +45,7 @@
   --step-5: clamp(2.80rem, calc(2.11rem + 3.47vw), 4.58rem);
 
   --font-family-heading: '', sans-serif;
-  --font-family-body: 'Open Sans', sans-serif;
+  --font-family-body: 'Source Sans Pro', sans-serif;
 
   --body-max-width: 1920px;
 
