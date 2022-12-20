@@ -4,13 +4,21 @@
 
 @keyframes fadeInUp {
   from {
+    transform: translate3d(0, 40px, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fade {
+  from {
     opacity: 0;
-    transform: translate3d(0, 30%, 0);
   }
 
   to {
     opacity: 1;
-    transform: translate3d(0, 0, 0);
   }
 }
 
@@ -44,7 +52,7 @@
   --step-4: clamp(2.33rem, calc(1.81rem + 2.59vw), 3.66rem);
   --step-5: clamp(2.80rem, calc(2.11rem + 3.47vw), 4.58rem);
 
-  --font-family-heading: '', sans-serif;
+  --font-family-heading: 'Source Sans Pro', sans-serif;
   --font-family-body: 'Source Sans Pro', sans-serif;
 
   --body-max-width: 1920px;

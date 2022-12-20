@@ -18,7 +18,7 @@ const seo = {
 			<div class="flex flex-col items-center">
 				{
 					frontmatter.category && (
-						<p class="py-2 px-4 text-sm bg-[var(--theme-surface-1)] rounded-[2rem] hover:opacity-80">
+						<p class="uppercase font-semibold text-base text-[#05f] animate-[fadeInUp_0.4s]">
 							<a
 								class="no-underline"
 								href={`/blog/category/${slugify(frontmatter.category)}`}
@@ -28,28 +28,37 @@ const seo = {
 						</p>
 					)
 				}
-				<h1 class="text-center my-4 mx-auto">
-					{frontmatter.title}
-				</h1>
-				<p class="post-content__date">
-					<time>{formatDate(frontmatter.publishedAt)}</time>
-				</p>
-				<!-- Hopefully we'll be able to use Astro's image integration for this soon -->
-				{
-					frontmatter.image && (
-						<picture>
-							<source srcset={`${frontmatter.image}.webp`} type="image/webp" />
-							<img
-								width="1200"
-								height="630"
-								class="post-content__img"
-								loading="eager"
-								src={`${frontmatter.image}.png`}
-								alt={frontmatter.alt}
-							/>
-						</picture>
-					)
-				}
+				<div class="animate-[fade_0.6s]">
+					<h1
+						class="text-center my-4 mx-auto max-w-[700px] animate-[fadeInUp_0.4s]"
+					>
+						{frontmatter.title}
+					</h1>
+					<p
+						class="my-0 mx-auto text-base text-gray-500 italic text-center animate-[fadeInUp_0.4s]"
+					>
+						<time>{formatDate(frontmatter.publishedAt)}</time>
+					</p>
+					<!-- Hopefully we'll be able to use Astro's image integration for this soon -->
+					{
+						frontmatter.image && (
+							<picture>
+								<source
+									srcset={`${frontmatter.image}.webp`}
+									type="image/webp"
+								/>
+								<img
+									width="1200"
+									height="630"
+									class="post-content__img"
+									loading="eager"
+									src={`${frontmatter.image}.png`}
+									alt={frontmatter.alt}
+								/>
+							</picture>
+						)
+					}
+				</div>
 			</div>
 			<div class="post-content__content flow fade-in">
 				<slot />
@@ -59,12 +68,6 @@ const seo = {
 </Layout>
 
 <style>
-	.post-content__date {
-		margin: 0 auto;
-		font-size: var(--step--1);
-		color: var(--color-gray);
-		font-style: italic;
-	}
 	.post-content__img {
 		margin: 3rem 0 2rem 0;
 		max-width: 100%;
