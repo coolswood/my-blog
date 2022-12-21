@@ -16,9 +16,6 @@ const { seo } = Astro.props;
 		<BaseHead {...seo} />
 		<ThemeProvider />
 		<CreateCopyCodeButtons />
-		<script>
-			import "../components/CodeButtons/copy-code-button";
-		</script>
 	</head>
 	<body>
 		<slot name="header" />

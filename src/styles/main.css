@@ -198,12 +198,6 @@ pre {
   border-radius: 0.25rem;
 }
 
-pre copy-code-button {
-  position: absolute;
-  top: 0.5rem;
-  right: 0.5rem;
-}
-
 /* Gloal fade in animation */
 
 @media (prefers-reduced-motion: no-preference) {
