@@ -4,9 +4,12 @@ import sitemap from "@astrojs/sitemap";
 import mdx from "@astrojs/mdx";
 
 // https://astro.build/config
+import prefetch from "@astrojs/prefetch";
+
+// https://astro.build/config
 export default defineConfig({
   site: settings.site,
-  integrations: [sitemap(), mdx()],
+  integrations: [sitemap(), mdx(), prefetch()],
   vite: {
     ssr: {
       external: ["svgo"]
