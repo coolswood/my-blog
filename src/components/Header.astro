@@ -3,10 +3,6 @@ import Container from "./Container.astro";
 import Logo from "./Logo.astro";
 ---
 
-<script>
-	import "./ThemeToggleButton/theme-toggle-button";
-</script>
-
 <header
 	class="h-14 flex items-center border-b-[1px] border-solid border-[var(--theme-primary-light)]"
 >
@@ -15,7 +11,6 @@ import Logo from "./Logo.astro";
 			<a class="flex items-center m-0" href="/" title="Navigate Home">
 				<Logo />
 			</a>
-			<!-- <theme-toggle-button></theme-toggle-button> -->
 		</nav>
 	</Container>
 </header>
