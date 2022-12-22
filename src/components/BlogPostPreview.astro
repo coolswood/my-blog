@@ -3,7 +3,7 @@ const { post } = Astro.props;
 import { formatDate } from "../utils/helpers";
 ---
 
-<a rel="prefetch" class="post-preview__link fade-in" href={post.url}>
+<a rel="prefetch" class="post-preview__link" href={post.url}>
 	<article class="post-preview__article">
 		<!-- Hopefully we'll be able to use Astro's image integration for this soon -->
 		<picture>

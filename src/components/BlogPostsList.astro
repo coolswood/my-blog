@@ -1,24 +1,26 @@
 ---
 import BlogPostPreview from "./BlogPostPreview.astro";
 
-const {posts} = Astro.props;
+const { posts } = Astro.props;
 ---
 
-<ul>
-  {posts.map((post) => (
-    <li>
-      <BlogPostPreview post={post} />
-    </li>
-  ))}
+<ul class="animate-[fadeInUp_0.4s]">
+	{
+		posts.map((post) => (
+			<li>
+				<BlogPostPreview post={post} />
+			</li>
+		))
+	}
 </ul>
 
 <style>
-  ul {
-    margin: 0 0 10vh 0;
-    list-style: none;
-    padding: 0;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 3rem;
-  }
+	ul {
+		margin: 0 0 10vh 0;
+		list-style: none;
+		padding: 0;
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 3rem;
+	}
 </style>

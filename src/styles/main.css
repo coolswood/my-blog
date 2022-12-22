@@ -37,23 +37,18 @@
   --theme-surface-1: hsl(0, 0%, 93%);
   --theme-on-surface-1: hsl(0, 0%, 10%);
 
-  --theme-footer-background: hsl(0, 0%, 3%);
-  --theme-on-footer-background: hsl(0, 0%, 90%);
-
   /* Typography */
  /* @link https://utopia.fyi/type/calculator?c=320,18,1.2,1140,24,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l */
 
   --step--2: clamp(0.78rem, calc(0.71rem + 0.35vw), 0.96rem);
   --step--1: clamp(0.94rem, calc(0.84rem + 0.51vw), 1.20rem);
-  --step-0: clamp(1.13rem, calc(0.98rem + 0.73vw), 1.50rem);
-  --step-1: clamp(1.35rem, calc(1.15rem + 1.02vw), 1.88rem);
-  --step-2: clamp(1.62rem, calc(1.34rem + 1.41vw), 2.34rem);
-  --step-3: clamp(1.94rem, calc(1.56rem + 1.92vw), 2.93rem);
+  --step-0: clamp(1.13rem, calc(0.98rem + 0.73vw), 1.30rem);
+  --step-1: clamp(1.35rem, calc(1.15rem + 1.02vw), 1.68rem);
+  --step-2: clamp(1.62rem, calc(1.34rem + 1.41vw), 2rem);
+  --step-3: clamp(1.94rem, calc(1.56rem + 1.92vw), 2.73rem);
   --step-4: clamp(2.33rem, calc(1.81rem + 2.59vw), 3.66rem);
-  --step-5: clamp(2.80rem, calc(2.11rem + 3.47vw), 4.58rem);
 
-  --font-family-heading: 'Source Sans Pro', sans-serif;
-  --font-family-body: 'Source Sans Pro', sans-serif;
+  --font-family: 'Source Sans Pro', sans-serif;
 
   --body-max-width: 1920px;
 
@@ -128,7 +123,7 @@ body {
   background-color: var(--theme-background);
   color: var(--theme-on-background);
   font-size: var(--step-0);
-  font-family: var(--font-family-body);
+  font-family: var(--font-family);
   font-weight: 400;
   line-height: 1.5;
   max-width: var(--body-max-width);
@@ -155,39 +150,28 @@ a {
 
 h1 {
   font-size: var(--step-4);
-  font-family: var(--font-family-heading);
+  font-family: var(--font-family);
   font-weight: 700;
   line-height: 1.2;
 }
 
 h2 {
   font-size: var(--step-3);
-  font-family: var(--font-family-heading);
+  font-family: var(--font-family);
   font-weight: 700;
   line-height: 1.2;
 }
 
 h3 {
   font-size: var(--step-2);
-  font-family: var(--font-family-heading);
-  font-weight: 500;
+  font-family: var(--font-family);
+  font-weight: 600;
   line-height: 1.2;
 }
 
 h4 {
   font-size: var(--step-1);
-  font-family: var(--font-family-heading);
-}
-
-h1,
-h2,
-h3 {
-  max-width: 30ch;
-}
-
-p,
-li {
-  max-width: 70ch;
+  font-family: var(--font-family);
 }
 
 pre {
@@ -198,15 +182,21 @@ pre {
   border-radius: 0.25rem;
 }
 
-/* Gloal fade in animation */
+blockquote {
+  position: relative;
+  max-width: 100%;
+  overflow-x: auto;
+  padding: 1rem 0.75rem;
+  border-radius: 0.25rem;
+  border-left: 0.25rem solid var(--theme-primary-light);
+  color: var(--theme-on-surface-1);
+  font-style: italic;
+  font-size: var(--step--1);
+  margin: 0 20px;
+}
 
-@media (prefers-reduced-motion: no-preference) {
-  .fade-in[data-state=visible] {
-      transition: transform 700ms cubic-bezier(0.42, 0, 0.32, 1.17), opacity 1000ms cubic-bezier(0.42, 0, 0.32, 1.17) 200ms;
-  }
-
-  .fade-in[data-state=hidden] {
-      transform: translateY(2ex);
-      opacity: 0;
+@media (max-width: 768px) {
+  blockquote {
+    margin: 0;
   }
 }
