@@ -4,6 +4,8 @@ import { settings } from "../data/settings";
 import "../styles/reset.css";
 import "../styles/main.css";
 
+import { GoogleFontsOptimizer } from "astro-google-fonts-optimizer";
+
 export interface Props {
 	title?: string;
 	description?: string;
@@ -31,6 +33,11 @@ const image = new URL(Astro.props.image || "./social.png", Astro.site);
 
 <meta name="description" content={description || settings.description} />
 <meta name="generator" content={Astro.generator} />
+
+<GoogleFontsOptimizer
+	url="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap"
+/>
+
 <!-- settingsmap -->
 <link rel="sitemap" href="/sitemap.xml" />
 <!-- RSS -->
@@ -56,10 +63,3 @@ const image = new URL(Astro.props.image || "./social.png", Astro.site);
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
 <meta property="twitter:image" content={image} />
-
-<!-- Google Fonts -->
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /><link
-	href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700"
-	rel="stylesheet"
-/>
