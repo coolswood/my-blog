@@ -118,6 +118,17 @@ html {
   scroll-behavior: smooth;
 }
 
+body::-webkit-scrollbar {
+  width: 6px;  
+}
+body::-webkit-scrollbar-track {
+  background: none;
+}
+body::-webkit-scrollbar-thumb {
+  border-radius: 30px;
+  background: var(--theme-primary-light);
+}
+
 body {
   margin: 0 auto;
   background-color: var(--theme-background);

@@ -1,23 +1,23 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@astrojs/mdx': ^0.11.4
+  '@astrojs/mdx': ^0.13.0
   '@astrojs/prefetch': ^0.1.1
   '@astrojs/sitemap': ^1.0.0
   astro: ^1.3.1
-  astro-icon: ^0.7.3
+  astro-icon: ^0.8.0
   autoprefixer: ^10.4.13
   postcss: ^8.4.20
   tailwindcss: ^3.2.4
 
 dependencies:
-  '@astrojs/mdx': 0.11.6
+  '@astrojs/mdx': 0.13.0
   '@astrojs/prefetch': 0.1.1
 
 devDependencies:
   '@astrojs/sitemap': 1.0.0
   astro: 1.7.2
-  astro-icon: 0.7.3
+  astro-icon: 0.8.0
   autoprefixer: 10.4.13_postcss@8.4.20
   postcss: 8.4.20
   tailwindcss: 3.2.4_postcss@8.4.20
@@ -89,8 +89,8 @@ packages:
       - supports-color
     dev: true
 
-  /@astrojs/mdx/0.11.6:
-    resolution: {integrity: sha512-MEi8CZuz4vXn74/jCb0CMOAKEqd6nsLrShYfE+ddb1//14CwuaVGbXN7V6/zGj8ZvBhFk/darBbNpJBmzfbI6A==}
+  /@astrojs/mdx/0.13.0:
+    resolution: {integrity: sha512-2D/O5AjCBQQ/PLx3P/WysACdFxz97iQPu55hy9pc+u04a+fMFuVdKm9ftWXpsNHL2SXbKb7uRpcuFw93FnRNDw==}
     engines: {node: ^14.18.0 || >=16.12.0}
     dependencies:
       '@astrojs/prism': 1.0.2
@@ -799,13 +799,13 @@ packages:
       tslib: 2.4.1
     dev: true
 
-  /astring/1.8.3:
-    resolution: {integrity: sha512-sRpyiNrx2dEYIMmUXprS8nlpRg2Drs8m9ElX9vVEXaCB4XEAJhKfs7IcX0IwShjuOAjLR6wzIrgoptz1n19i1A==}
+  /astring/1.8.4:
+    resolution: {integrity: sha512-97a+l2LBU3Op3bBQEff79i/E4jMD2ZLFD8rHx9B6mXyB2uQwhJQYfiDqUwtfjF4QA1F2qs//N6Cw8LetMbQjcw==}
     hasBin: true
     dev: false
 
-  /astro-icon/0.7.3:
-    resolution: {integrity: sha512-choatz5A5pKFMzmGJucvtliOxYJLUQ94bjgoGJHYLQnX7FRG+YhnONoyyapno6iVFavCIytSREOy4Vcg2wMYUA==}
+  /astro-icon/0.8.0:
+    resolution: {integrity: sha512-sCzhZcl46BIyLJVg89hq5J4uQABn2psmGvK4cUaxib+M/kBI3TrPy1w3g2O5h/WcrTHLVN9LyxjgkD4lEJJFpw==}
     dependencies:
       node-fetch: 3.3.0
       resolve-pkg: 2.0.0
@@ -1566,7 +1566,7 @@ packages:
     resolution: {integrity: sha512-490lbfCcpLk+ofK6HCgqDfYs4KAfq6QVvDw3+Bm1YoKRgiOjKiKYGAVQE1uwh7zVxBgWhqp4FDtp5SqunpUk1A==}
     dependencies:
       '@types/estree-jsx': 1.0.0
-      astring: 1.8.3
+      astring: 1.8.4
       source-map: 0.7.4
     dev: false
 

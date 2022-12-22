@@ -1,7 +1,7 @@
 export const settings = {
-  site: 'https://simple-blog.littlesticks.dev',
-  name: 'Мои мысли',
-  title: 'Site title',
-  description: 'Site description',
+  site: 'https://www.danielsugonyaev.com',
+  name: 'Блог Даниила Сугоняева',
+  title: 'Личный блог Даниила Сугоняева',
+  description: 'Мой личный блог',
   showLittleSticksPlug: true,
 }
