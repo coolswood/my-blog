@@ -41,6 +41,7 @@ const image = new URL(Astro.props.image || "./social.png", Astro.site);
 <script>
 	import { webVitals } from "../utils/vitals";
 	let analyticsId = import.meta.env.PUBLIC_VERCEL_ANALYTICS_ID;
+
 	if (analyticsId) {
 		webVitals({
 			path: location.pathname,
