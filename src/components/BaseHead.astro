@@ -13,8 +13,8 @@ export interface Props {
 	image?: string;
 }
 
-const title = settings.title;
-const description = settings.description;
+const title = Astro.props.title || settings.title;
+const description = Astro.props.description || settings.description;
 const canonicalURL =
 	Astro.props.canonicalURL || new URL(Astro.url.pathname, Astro.site);
 const image = new URL(Astro.props.image || "./social.png", Astro.site);
@@ -29,7 +29,7 @@ const image = new URL(Astro.props.image || "./social.png", Astro.site);
 <!-- Favicon -->
 <link rel="icon" type="image/svg" href="/favicon.svg" />
 <!-- Primary Meta Tags -->
-<title>{settings.title}</title>
+<title>{title || settings.title}</title>
 <meta name="title" content={title || settings.title} />
 
 <meta name="description" content={description || settings.description} />
