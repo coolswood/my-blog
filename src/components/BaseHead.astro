@@ -38,6 +38,18 @@ const image = new URL(Astro.props.image || "./social.png", Astro.site);
 	url="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap"
 />
 
+<script>
+	import { webVitals } from "../utils/vitals";
+	let analyticsId = import.meta.env.PUBLIC_VERCEL_ANALYTICS_ID;
+	if (analyticsId) {
+		webVitals({
+			path: location.pathname,
+			params: location.search,
+			analyticsId,
+		});
+	}
+</script>
+
 <!-- settingsmap -->
 <link rel="sitemap" href="/sitemap.xml" />
 <!-- RSS -->
