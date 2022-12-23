@@ -2,8 +2,8 @@
 layout: '../../layouts/Post.astro'
 title: Русским и собакам входа нет
 image: /images/russian-and-dog
-publishedAt: "2021-01-01"
-category: 'Freelance'
+publishedAt: "2022-12-23"
+category: 'Жизнь'
 ---
 
 > Боязливо отводя глаза после тяжелого рабочего дня по пути домой я забегаю в продуктовый ларек. Запинаясь произношу непривычные звуки чужого языка: 
