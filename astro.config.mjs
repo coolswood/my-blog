@@ -8,16 +8,9 @@ import robotsTxt from 'astro-robots-txt';
 import prefetch from "@astrojs/prefetch";
 
 // https://astro.build/config
-import partytown from "@astrojs/partytown";
-
-// https://astro.build/config
 export default defineConfig({
   site: settings.site,
-  integrations: [sitemap(), robotsTxt(), mdx(), prefetch(), partytown({
-    config: { 
-      forward: ["dataLayer.push", "gtag"] 
-    },
-  })],
+  integrations: [sitemap(), robotsTxt(), mdx(), prefetch()],
   vite: {
     ssr: {
       external: ["svgo"]
