@@ -15,7 +15,7 @@ export default defineConfig({
   site: settings.site,
   integrations: [sitemap(), robotsTxt(), mdx(), prefetch(), partytown({
     config: { 
-      forward: ["dataLayer.push"] 
+      forward: ["dataLayer.push", "gtag"] 
     },
   })],
   vite: {

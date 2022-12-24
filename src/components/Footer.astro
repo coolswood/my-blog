@@ -13,9 +13,9 @@ import Container from "./Container.astro";
 	<script type="text/partytown">
 		// @ts-nocheck
 		window.dataLayer = window.dataLayer || [];
-		function gtag() {
+		window.gtag = function gtag() {
 			dataLayer.push(arguments);
-		}
+		};
 		gtag("js", new Date());
 
 		gtag("config", "G-578NGX0P8Y");
