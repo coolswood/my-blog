@@ -3,7 +3,7 @@ const { post } = Astro.props;
 import { formatDate } from "../utils/helpers";
 ---
 
-<a rel="prefetch" class="post-preview__link" href={post.url}>
+<a rel="prefetch" class="no-underline" href={post.url}>
 	<article class="post-preview__article">
 		<!-- Hopefully we'll be able to use Astro's image integration for this soon -->
 		<picture>
@@ -22,7 +22,7 @@ import { formatDate } from "../utils/helpers";
 					</p>
 				)
 			}
-			<h2>{post.frontmatter.title}</h2>
+			<h2 class="text-[length:var(--step-1)]">{post.frontmatter.title}</h2>
 			<p class="text-[#666] text-base">
 				{formatDate(post.frontmatter.publishedAt)}
 			</p>
@@ -31,9 +31,6 @@ import { formatDate } from "../utils/helpers";
 </a>
 
 <style>
-	.post-preview__link {
-		text-decoration: none;
-	}
 	.post-preview__link:hover .post-preview__img {
 		box-shadow: rgba(0, 0, 0, 0.1) 0 10px 20px 0;
 		transform: scale(1.1);
@@ -50,9 +47,6 @@ import { formatDate } from "../utils/helpers";
 		display: grid;
 		gap: 10px;
 		transition: transform 0.2s ease-in-out;
-	}
-	.post-preview__text h2 {
-		font-size: var(--step-1);
 	}
 	.post-preview__img {
 		width: 250px;
