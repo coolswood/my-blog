@@ -1,9 +1,15 @@
 ---
 const { post } = Astro.props;
 import { formatDate } from "../utils/helpers";
+
+const { lang } = Astro.params;
 ---
 
-<a rel="prefetch" class="no-underline" href={post.url}>
+<a
+	rel="prefetch"
+	class="no-underline"
+	href={`${lang}/blog/${post.frontmatter.slug}`}
+>
 	<article class="post-preview__article">
 		<!-- Hopefully we'll be able to use Astro's image integration for this soon -->
 		<picture>
