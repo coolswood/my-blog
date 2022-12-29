@@ -1,12 +1,12 @@
 ---
-import Layout from "../../../layouts/Page.astro";
-import Container from "../../../components/Container.astro";
-import BlogPostsList from "../../../components/BlogPostsList.astro";
+import Layout from "@layouts/Page.astro";
+import Container from "@components/Container.astro";
+import BlogPostsList from "@components/BlogPostsList.astro";
 
-import { generateCategoryData } from "../../../utils/helpers.js";
+import { generateCategoryData } from "@utils/helpers.js";
 
 export async function getStaticPaths() {
-	const allPosts = await Astro.glob("../*.{mdx,md}");
+	const allPosts = await Astro.glob("/src/pages/**/*.{md,mdx}");
 	const sortedPosts = allPosts.sort(
 		(a, b) => new Date(b.date).valueOf() - new Date(a.date).valueOf()
 	);

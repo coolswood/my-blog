@@ -1,5 +1,5 @@
 ---
-layout: '../../layouts/Post.astro'
+layout: '@layouts/Post.astro'
 title: Русским и собакам входа нет или о жизни русского в Эстонии
 image: /images/russian-and-dog
 publishedAt: "2022-12-23"
