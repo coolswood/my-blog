@@ -2,7 +2,7 @@
 const { post } = Astro.props;
 import { formatDate } from "../utils/helpers";
 
-const { lang } = Astro.params;
+const { lang = "en" } = Astro.params;
 ---
 
 <a
