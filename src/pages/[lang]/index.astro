@@ -7,11 +7,15 @@ export async function getStaticPaths() {
 	return [{ params: { lang: "en" } }, { params: { lang: "ru" } }];
 }
 
-const posts = (await Astro.glob("/src/posts/**/*.{md,mdx}")).sort(
-	(a, b) =>
-		new Date(b.frontmatter.publishedAt).valueOf() -
-		new Date(a.frontmatter.publishedAt).valueOf()
-);
+const { lang = "en" } = Astro.params;
+
+const posts = (await Astro.glob("/src/posts/**/*.{md,mdx}"))
+	.filter((i) => i.frontmatter.lang === lang)
+	.sort(
+		(a, b) =>
+			new Date(b.frontmatter.publishedAt).valueOf() -
+			new Date(a.frontmatter.publishedAt).valueOf()
+	);
 
 const seo = {
 	title: "Облог о жизни, путешествиях и технологиях",

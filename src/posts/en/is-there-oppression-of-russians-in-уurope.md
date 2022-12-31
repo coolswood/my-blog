@@ -1,10 +1,11 @@
 ---
 layout: '@layouts/Post.astro'
-title: Русским и собакам входа нет или о жизни русского в Эстонии
+title: No Entry for Russians and Dogs, or Russian Life in Estonia
 image: /images/russian-and-dog
 publishedAt: "2022-12-23"
 category: 'Live'
 slug: 'is-there-oppression-of-russians-in-уurope'
+lang: 'en'
 ---
 
 > После тяжелого рабочего дня по пути домой я решаю забежать в продуктовый ларек. Боязливо отводя глаза и запинаясь произношу непривычные звуки чужого языка: 
