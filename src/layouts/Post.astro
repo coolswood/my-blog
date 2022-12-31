@@ -2,6 +2,7 @@
 import Layout from "./Page.astro";
 import Container from "@components/Container.astro";
 import { formatDate, slugify } from "../utils/helpers";
+import i18next from "i18next";
 
 const { frontmatter } = Astro.props;
 
@@ -37,7 +38,14 @@ const seo = {
 					<p
 						class="my-0 mx-auto text-base text-gray-500 italic text-center animate-[fadeInUp_0.4s]"
 					>
-						<time>{formatDate(frontmatter.publishedAt)}</time>
+						<time
+							>{
+								formatDate(
+									frontmatter.publishedAt,
+									i18next.language === "ru" ? "ru-RU" : "en-US"
+								)
+							}</time
+						>
 					</p>
 					<!-- Hopefully we'll be able to use Astro's image integration for this soon -->
 					{

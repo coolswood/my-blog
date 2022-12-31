@@ -31,7 +31,12 @@ const lang = i18next.language === "ru" ? "" : i18next.language;
 			}
 			<h2 class="text-[length:var(--step-1)]">{post.frontmatter.title}</h2>
 			<p class="text-[#666] text-base">
-				{formatDate(post.frontmatter.publishedAt)}
+				{
+					formatDate(
+						post.frontmatter.publishedAt,
+						i18next.language === "ru" ? "ru-RU" : "en-US"
+					)
+				}
 			</p>
 		</div>
 	</article>

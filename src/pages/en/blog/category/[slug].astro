@@ -1,5 +1,5 @@
 ---
-import { changeLanguage } from "i18next";
+import i18next, { changeLanguage } from "i18next";
 import Layout from "@layouts/Page.astro";
 import Container from "@components/Container.astro";
 import BlogPostsList from "@components/BlogPostsList.astro";
@@ -9,7 +9,9 @@ changeLanguage("en");
 
 export async function getStaticPaths() {
     const allPosts = await Astro.glob("/src/posts/**/*.{md,mdx}");
-    const sortedPosts = allPosts.sort((a, b) => new Date(b.date).valueOf() - new Date(a.date).valueOf());
+    const sortedPosts = allPosts
+        .filter((i) => i.frontmatter.lang === i18next.language)
+        .sort((a, b) => new Date(b.date).valueOf() - new Date(a.date).valueOf());
     const allCategoriesUnique = new Set();
     sortedPosts.forEach((post) => {
         if (post.frontmatter.category) {
