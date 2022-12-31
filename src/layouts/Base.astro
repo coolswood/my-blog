@@ -1,6 +1,7 @@
 ---
 import BaseHead from "@components/BaseHead.astro";
 import type { Props as BaseHeadProps } from "@components/BaseHead.astro";
+import i18next from "i18next";
 
 export interface Props {
 	seo?: BaseHeadProps;
@@ -9,7 +10,7 @@ export interface Props {
 const { seo } = Astro.props;
 ---
 
-<html lang="ru">
+<html lang={i18next.language}>
 	<head>
 		<BaseHead {...seo} />
 	</head>

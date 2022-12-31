@@ -1,6 +1,9 @@
 ---
 import Container from "./Container.astro";
 import Logo from "./Logo.astro";
+import i18next from "i18next";
+
+const lang = i18next.language === "ru" ? "" : i18next.language;
 ---
 
 <header
@@ -8,7 +11,7 @@ import Logo from "./Logo.astro";
 >
 	<Container>
 		<nav class="w-full flex items-center justify-between">
-			<a class="flex items-center m-0" href="/" title="Navigate Home">
+			<a class="flex items-center m-0" href={"/" + lang} title="Navigate Home">
 				<Logo />
 			</a>
 		</nav>

@@ -2,7 +2,8 @@
 const { post } = Astro.props;
 import { formatDate } from "../utils/helpers";
 
-const { lang = "en" } = Astro.params;
+import i18next from "i18next";
+const lang = i18next.language === "ru" ? "" : i18next.language;
 ---
 
 <a
