@@ -9,7 +9,7 @@ const lang = i18next.language === "ru" ? "" : i18next.language;
 <a
 	rel="prefetch"
 	class="no-underline"
-	href={`${lang}/blog/${post.frontmatter.slug}`}
+	href={`/${lang}/blog/${post.frontmatter.slug}`}
 >
 	<article class="post-preview__article">
 		<!-- Hopefully we'll be able to use Astro's image integration for this soon -->

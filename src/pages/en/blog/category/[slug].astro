@@ -8,29 +8,31 @@ import { generateCategoryData } from "@utils/helpers.js";
 changeLanguage("en");
 
 export async function getStaticPaths() {
-    const allPosts = await Astro.glob("/src/posts/**/*.{md,mdx}");
-    const sortedPosts = allPosts
-        .filter((i) => i.frontmatter.lang === i18next.language)
-        .sort((a, b) => new Date(b.date).valueOf() - new Date(a.date).valueOf());
-    const allCategoriesUnique = new Set();
-    sortedPosts.forEach((post) => {
-        if (post.frontmatter.category) {
-            allCategoriesUnique.add(post.frontmatter.category);
-        }
-    });
-    const allCategoriesData = generateCategoryData(allCategoriesUnique);
-    // map through the categories array
-    return allCategoriesData.map((category) => {
-        // filter the posts that match the given category
-        const posts = sortedPosts.filter((post) => post.frontmatter.category.includes(category.name));
-        return {
-            params: { slug: category.slug },
-            props: {
-                category: category.name,
-                posts: posts,
-            },
-        };
-    });
+	const allPosts = await Astro.glob("/src/posts/**/*.{md,mdx}");
+	const sortedPosts = allPosts
+		.filter((i) => i.frontmatter.lang === i18next.language)
+		.sort((a, b) => new Date(b.date).valueOf() - new Date(a.date).valueOf());
+	const allCategoriesUnique = new Set();
+	sortedPosts.forEach((post) => {
+		if (post.frontmatter.category) {
+			allCategoriesUnique.add(post.frontmatter.category);
+		}
+	});
+	const allCategoriesData = generateCategoryData(allCategoriesUnique);
+	// map through the categories array
+	return allCategoriesData.map((category) => {
+		// filter the posts that match the given category
+		const posts = sortedPosts.filter((post) =>
+			post.frontmatter.category.includes(category.name)
+		);
+		return {
+			params: { slug: category.slug },
+			props: {
+				category: category.name,
+				posts: posts,
+			},
+		};
+	});
 }
 const { category, posts } = Astro.props;
 ---
