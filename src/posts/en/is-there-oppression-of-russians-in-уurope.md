@@ -4,7 +4,7 @@ title: No Entry for Russians and Dogs, or Russian Life in Estonia
 image: /images/russian-and-dog
 publishedAt: "2022-12-23"
 category: 'Live'
-slug: 'is-there-oppression-of-russians-in-уurope-en'
+slug: 'is-there-oppression-of-russians-in-уurope'
 lang: 'en'
 ---
 

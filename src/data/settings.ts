@@ -1,7 +1,9 @@
+import { t } from "i18next";
+
 export const settings = {
   site: 'https://www.danielsugonyaev.com',
-  name: 'Облог о жизни, путешествиях и технологиях',
-  title: 'Облог о жизни, путешествиях и технологиях',
-  description: 'Мой личный блог',
+  name: t("main.seo.title"),
+  title: t("main.seo.title"),
+  description: t("main.seo.description"),
   showLittleSticksPlug: true,
 }
