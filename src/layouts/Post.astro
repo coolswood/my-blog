@@ -4,7 +4,7 @@ import Container from "@components/Container.astro";
 import { formatDate, slugify } from "../utils/helpers";
 import i18next from "i18next";
 
-const lang = i18next.language === "ru" ? "" : i18next.language;
+const lang = i18next.language === "ru" ? "" : "/" + i18next.language;
 
 const { frontmatter } = Astro.props;
 
@@ -24,7 +24,7 @@ const seo = {
 						<p class="uppercase font-semibold text-base text-[#05f] animate-[fadeInUp_0.4s]">
 							<a
 								class="no-underline"
-								href={`/${lang}/blog/category/${slugify(frontmatter.category)}`}
+								href={`${lang}/blog/category/${slugify(frontmatter.category)}`}
 							>
 								{frontmatter.category}
 							</a>
