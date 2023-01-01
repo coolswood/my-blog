@@ -1,10 +1,10 @@
 ---
-import { changeLanguage } from "i18next";
+import i18next, { changeLanguage } from "i18next";
 
 changeLanguage("ru");
 
 export async function getStaticPaths() {
-    const posts = await Astro.glob("/src/posts/**/*.{md,mdx}");
+    const posts = await Astro.glob("/src/posts/ru/**/*.{md,mdx}");
     return posts.map((post) => ({
         params: {
             slug: post.frontmatter.slug,
