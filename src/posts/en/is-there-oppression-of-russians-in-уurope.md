@@ -8,20 +8,20 @@ slug: 'is-there-oppression-of-russians-in-уurope'
 lang: 'en'
 ---
 
-> После тяжелого рабочего дня по пути домой я решаю забежать в продуктовый ларек. Боязливо отводя глаза и запинаясь произношу непривычные звуки чужого языка: 
+> After a hard day's work, on my way home I decide to stop by the grocery store. Averting my eyes fearfully and stammering out the unfamiliar sounds of a foreign language: 
 >
-> \- “Тере, кас те саксите милле мууа будел ветт?” (Здравствуйте, не моли бы вы продать мне бутылочку воды?).
+> \- “Тере, кас те саксите милле мууа будел ветт?” (Hello, could you sell me a bottle of water?).
 >
-> Естественно, моя нелепая попытка проваливается, произношение выдает меня с головой. 
+> Of course, my ridiculous attempt fails, my pronunciation giving me away. 
 >
-> \- Joo pudelist, vene siga! (Пей из лужи, русская свинья!) - Даже не взглянув на меня, с презрением отвечает продавец. 
+> \- Joo pudelist, vene siga! (Drink from the puddle, you Russian swine!) - Without even looking at me, the salesman answers contemptuously. 
 >
-> Размазывая по щекам слезы и сопли я выбегаю на улицу. Надо поспешить, комендантский час начнется всего через 30 минут, а до русского гетто путь неблизкий.
-> “Зато я живу в демократичной Европе”, говорю я себе тихо под нос, чтобы никто не услышал русскую речь, и прибавляю шагу.
+> Smearing tears and snot on my cheeks, I run out into the street. I have to hurry, curfew starts in just 30 minutes, and it's a long way to the Russian ghetto.
+> "But I live in a democratic Europe," I say to myself quietly under my breath so that no one hears Russian, and I increase my pace.
 
-Кажется именно такая картина может сложиться в голове, если черпать информацию только из российских СМИ 😀. Реальность как всегда многограннее. Давайте я попробую описать свой опыт и впечатления о жизни в одной из самых "русофобских" европейских стран - Эстонии.
+This seems to be the picture you get in your head if you only get information from the Russian media 😀. Reality is, as usual, more multifaceted. Let me try to describe my experience and impressions about live in one of the "Russophobic" European country - Estonia.
 
-В начале немного диспозиции. Я уехал из России в 2020 году еще до войны и все это время прожил в столице Эстонии - Таллине. Место жизни очень важно и в дальнейшем будет понятно почему. Так же рассказ нужно разделить на две части - до войны и после.
+A little disposition, at first. I left Russia in 2020, even before the war and all of this time a was living in the capital of Estonia - Tallinn. The living place is important and you below you will understand why. My story should divide into before and after.
 
 ### Отношение до войны
 
