@@ -2,6 +2,9 @@
     "name": "astro-theme-foundation",
     "version": "1.0.0",
     "private": true,
+    "engines": {
+    "node": "16.13.0 || 16.14.X || 16.18.X"
+    },
     "scripts": {
         "dev": "astro dev",
         "start": "astro dev",
