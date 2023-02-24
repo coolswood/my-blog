@@ -23,40 +23,40 @@ This seems to be the picture you get in your head if you only get information fr
 
 A little disposition, at first. I left Russia in 2020, even before the war and all of this time a was living in the capital of Estonia - Tallinn. The living place is important and you below you will understand why. My story should divide into before and after.
 
-### Отношение до войны
+### Attitude before the war
 
-Еще когда я только раздумывал о переезде многие знакомые отговаривали, дескать, там ненавидят русских. Всю глупость этого суждения можно ощутить сразу после пересечения границы. Первый город на вашем пути - Нарва, это самый прорусский город Эстонии, думаю, что подовляющее большинство людей здесь даже никогда не говорили по Эстонски. Но это приграничный городок, а наш путь лежит в самое сердце страны - столицу!
+Back when I was just thinking about moving, many acquaintances dissuaded me, saying that Russians were hated there. The stupidity of this judgment can be felt as soon as you cross the border. The first city on your way is Narva, it's the most pro-Russian city in Estonia, I think that most people here have never even spoken Estonian. But it's a border town, and our way goes to the heart of the country - the capital!
 
-В Таллине тоже очень много людей понимает русский или знает только русский язык. В любом магазине или кафе вы легко объяснитесь с персоналом. Естественно, молодые люди чаще всего не учат язык агрессивного соседа и понимают только простейшие фразы (примерно на уровне как в России знают английский). Однако, очень распространено и братное. Я встречал людей, который выросли здесь в русскоязычных семьях, но на Эстонском могут понять только несколько основных фраз.
+In Tallinn, too, a lot of people understand Russian or only know Russian. In any store or cafe, you can easily explain yourself to the staff. Naturally, young people often do not learn the language of their aggressive neighbor and understand only the simplest phrases (about the same level as in Russia know English). However, fraternization is also very common. I have met people who grew up here in Russian-speaking families, but in Estonian they can understand only a few basic phrases.
 
-Вообще размер страны очень сильно влияет на ее культуру. Эстония испытывает сильное культурное и языковое влияние соседей. Это так же приводит к высокому уровню терпимости и принятия других культур.
+In general, the size of the country has a very strong influence on its culture. Estonia has a strong cultural and linguistic influence from its neighbors. This also leads to a high level of tolerance and acceptance of other cultures.
 
-Если говорить тезисно о положении дел с отношением к русским, в быту очень маловероятно, что вы столкнетесь хоть с каким-то ущемлением. Это так хотя бы потому, что вас, как русского, невозможно отличить от русскоговорящего эстонца.
+To summarize the state of attitudes towards Russians, it's very unlikely that you'll encounter any kind of infringement at all in your everyday life. This is so if only because you, as a Russian, cannot be distinguished from a Russian-speaking Estonian.
 
-Я попросил нескольких друзей-имигрантов вспомнить случаи их притеснения, самый вопиющий изложу вам. Перед работой мой друг постоянно заходит купить завтрак в один и тот же магазинчик. В ларьке работает пожилая продавщица. Он всегда говорил с ней по русски и проблем не возникало, но в какой-то момент она решила русский позабыть. С тех пор она выслушивает его заказы, все делает, но отвечает только по эстонски. Вот такой забавный демарш, определять ли его в разряд русофобии или нет - решать вам.
+I asked several immigrant friends to recall instances of harassment, the most egregious of which I will tell you. Before work, a friend of mine always goes to buy breakfast at the same store. There is an elderly saleswoman working in the stall. He has always spoken to her in Russian and had no problems, but at some point she decided to forget Russian. Since then she listens to his orders, does everything, but answers only in Estonian. This is such a funny demarche, whether or not to classify it in the category of Russophobia is up to you to decide.
 
-**Так что, совсем нет никакой русофобии?** На самом деле у некоторых людей наверняка есть некоторое недовольство. Для меня это абсолютно понятно. Просто представьте, что в Москве 40% населения не говорило бы по русски, следовало своим традициям и не собиралась ассимилироваться, и вы поймете, что может чувствовать коренной эстонец.
+**So there's no Russophobia at all?** In fact, some people probably have some resentment. For me, it's completely understandable. Just imagine if 40% of the population in Moscow didn't speak Russian, followed their traditions, and had no intention of assimilating, and you can understand how a native Estonian might feel.
 
-Мне вот сразу вспоминается <a href="https://novayagazeta.ru/articles/2021/12/16/my-russkii-znaem-dazhe-luchshe" target="_blank">скандал в Москве</a>, когда на дверях некоторых выходов из метро стали дублировать надписи на таджикском и узбекском. Сколько было криков, что это уже перебор и пусть учат русский раз сюда приехали! Стоит задуматься на сколько мы сами живем в терпимой среде в России.
+I immediately remember the <a href="https://novayagazeta.ru/articles/2021/12/16/my-russkii-znaem-dazhe-luchshe" target="_blank">scandal in Moscow</a>, when they started duplicating the inscriptions on the doors of some subway exits in Tajik and Uzbek. There were so many screams that it's too much, and they should learn Russian now that they're here! It is worth thinking how tolerant we are living in Russia.
 
 <img src="https://novayagazeta.ru/static/records/fd27c9f812404bbd984b1cc45875239d.webp" alt="">
 
-### Отношение после начала войны
+### Attitude after the outbreak of war
 
-Думаю эта часть наиболее интересна для читателя. Сейчас-то наверняка мой рассказик из начала статьи постепенно воплощается в жизнь… Ну, и да и нет.
+I think this part is the most interesting for the reader. Now surely my story from the beginning of the article is gradually coming to life... Well, yes and no.
 
-В бытовых отношениях между людьми, на мой взгляд, не изменилось совсем ничего. Русский язык не вышел из употребления, на вас не будут косо смотреть за разговоры на нем.
+In my opinion, nothing has changed at all in the everyday relations between people. The Russian language has not gone out of use, you will not be looked at obliquely for speaking it.
 
-Однако, изменения есть на уровне отношения государства. В юридическом плане русским перекрывают кислород и это очень чувствуется. Сейчас уже невозможно получить ВНЖ для работы, если у вас не было его ранее. Невозможно иметь здесь бизнес, если в управлении русские. Все что касается движения денег в Россию и назад так же затруднено максимально.
+But there have been changes at the level of state relations. Legally, they are cutting off the oxygen to Russians, and it is very noticeable. Now it's no longer possible to get a residence permit to work if you didn't have one before. It is impossible to have a business here if the management is Russian. Everything that concerns the movement of money to and from Russia is also very difficult.
 
-Лично я недавно смог обновить свой ВНЖ в связи с переходом на новую работу, но далось мне это морально непросто. Мою заявку рассматривали несколько месяцев и, в случае отказа, я вынужден был бы покинуть страну. В моем случае все прошло хорошо.
+Personally, I recently managed to renew my residence permit in connection with the transition to a new job, but it was not easy for me morally. My application is considered for several months, and, if denied, I would have to leave the country. In my case everything went well.
 
-Но есть пример противоположной ситуации. Моя коллега родом из России, она проучилась тут 4 года по визе и уже вышла на работу, но не успела сделать ВНЖ до войны. Она попыталась пойти по моему пути, но получила отказ. Через 5 месяцев она покинет Эстонию, страну, где она прожила суммарно 5 лет.
+But there is an example of the opposite situation. My colleague is from Russia, she studied here for 4 years on a visa and already got a job, but did not have time to make a residence permit before the war. She tried to go my way, but was rejected. In 5 months, she will leave Estonia, the country where she has lived for a total of 5 years.
 
-Можно ли это назвать дискриминацией? Краткий ответ - да, это она и есть, классическая дискриминация по национальному признаку на уровне государства. К сожалению, часто люди руководствуются не разумом, а эмоциями. Я прекрасно понимаю какую травму прибалтийским странам нанесла советская оккупация. То что происходит сейчас можно назвать гиперкомпенсацией той травмы. Уверен, такая реакция будет недолговременной. Как только война закончится, меры будут смягчаться.
+Can this be called discrimination? The short answer is yes, it is, it is classic nationality discrimination at the level of the state. Unfortunately, people are often guided not by reason but by their emotions. I am well aware of the trauma the Soviet occupation inflicted on the Baltic States. What is happening now can be called a hypercompensation of that trauma. I'm sure this reaction will be short-lived. As soon as the war is over, measures will soften.
 
-### Заключение
+### Conclusion
 
-Но закончить я хочу не на этом, дискриминация стран Европы в отношении русских меркнет перед настоящей русофобией в другой стране. Я говорю о России. Нет в мире страны, которая более притесняет, сажает, убивает, грабит и унижает русских. Нет страны, которая более вредит русской культуре, бросает тень на великое наследие русского народа.
+But this is not where I want to end, the discrimination of European countries against Russians pales before the real Russophobia in another country. I am talking about Russia. There is no country in the world which more oppresses, imprisons, kills, robs and humiliates Russians. There is no country that more harms Russian culture, that casts a shadow over the great heritage of the Russian people.
 
-Когда мы рассматриваем такие важные и комплексные темы, важно видеть картину в целом. Российская пропаганда заданимается тем, что сужает ваш взгляд, подсвечивает случаи дискриминации, которые имеют место быть в Европе, но не исследует причины его возникновения. Важно фокусироваться на болезни, а не на симптомах. Россия творит действительно страшные вещи в первую очередь с народом Украины, во вторую с Русским, никакая дискриминация не является существенным фактором в сравнии с этими зверствами.
+When we consider such important and complex topics, it is important to see the big picture. Russian propaganda sets out to narrow your view, to highlight instances of discrimination that take place in Europe, but does not examine the causes of it. It is important to focus on the disease, not the symptoms. Russia does truly terrible things to the people of Ukraine first and to the Russian people second, no discrimination is a significant factor in comparison to these atrocities.
